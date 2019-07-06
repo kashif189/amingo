@@ -18,7 +18,7 @@ app.use(express.urlencoded());
 
 /* GET home page. */
 app.get('/', (req,res) => res.json({
-	msg: "Hello! Amingo!!"
+	msg: "Hello! Amingo"
 }));
 
 app.post('/users', (req, res) => {
